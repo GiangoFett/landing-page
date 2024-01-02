@@ -9,11 +9,12 @@
 .logo {
     display: flex;
     width: 300px;
-    border: black 1px solid;
+    border: white 1px solid;
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
     justify-content: center;
+    margin-left: 90px;
 }
 
 .links {
@@ -21,7 +22,7 @@
     width: 500px;
     padding-right: 100px;
     justify-content: space-around;
-    border: black 1px solid;
+    border: white 1px solid;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -39,7 +40,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .title1 {
@@ -57,8 +58,12 @@
     border: 1px white solid;
     display: flex;
     width: 400px;
-    height: 200px;
+    /* height: 200px; */
     font-size: 18px;
     color:#e5e7eb
+}
+
+.image1 {
+    border: 1px solid white;
 }
 
