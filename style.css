@@ -2,6 +2,9 @@
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .banner {
@@ -13,7 +16,6 @@
 .logo {
     display: flex;
     width: 300px;
-    /* border: white 1px solid; */
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
@@ -23,37 +25,40 @@
 
 .links {
     display: flex;
-    width: 500px;
+    width: 600px;
     padding-right: 100px;
     justify-content: space-around;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 18px;  
 }
 
+
+
+/* Starting testing from here for body1 */
 .body1 {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     background-color: #1f2937;
     /* height: 300px; */
+    border: 1px solid #f9faf8;
 }
 
 
 .photogrid {
     display: flex;
-    flex-wrap: wrap;
+    /* justify-content: flex-start; */
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    border: 1px solid green;    
 }
 
 .title1 {
     display: flex;
-    align-items: flex-end;
     width: 500px;
-    height: 200px;
+    /* height: 200px; */
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    border: 1px solid white;  
 }
 
 .description1 {
@@ -61,14 +66,23 @@
     width: 400px;
     /* height: 200px; */
     font-size: 18px;
-    color:#e5e7eb
+    color:#e5e7eb;
 }
 
 .image1 {
-    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
 }
 
-.signupbody1 {
+.button1container {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid green;
+}
+
+.button1 {
     background-color: #3882F6;
     border-color: #3882F6;
     color: white;
