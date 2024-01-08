@@ -32,22 +32,16 @@
     font-size: 18px;  
 }
 
-
-
-/* Starting testing from here for body1 */
 .body1 {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
-    border: 1px solid #f9faf8;
 }
 
 
 .photogrid {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid yellow;    
+    flex-direction: column; 
 }
 
 .title1 {
@@ -56,7 +50,6 @@
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    justify-content: center;
 }
 
 .description1 {
@@ -66,11 +59,15 @@
     color:#e5e7eb;
 }
 
+.image1container {
+    display: flex;
+    justify-content: center;
+}
+
 .image1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: auto;
+    width: 50%;
 }
 
 .button1container {
@@ -85,4 +82,46 @@
     border-radius: 5px;
     font-size: 18px;
     padding: 8px 30px;
+}
+
+.title2container {
+    display: flex;
+    justify-content: center;
+}
+
+.title2 {
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.photogrid2container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+.photogrid2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photogriditem {
+    height: 300px;
+    width: 300px;
+}
+
+.photogriddesc {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.body3 {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    border: 1px solid red;
 }
