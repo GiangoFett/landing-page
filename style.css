@@ -109,13 +109,13 @@ html {
 }
 
 .photogrid2 {
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    /* overflow: visible; */
+    display: flex;    
 }
 
-.photogriditem {
+.photogriditem1 
+.photogriditem2 
+.photogriditem3
+.photogriditem4 {
     height: 300px;
     width: 300px;
 }
