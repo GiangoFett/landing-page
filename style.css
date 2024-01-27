@@ -105,11 +105,11 @@ html {
 .photogrid2container {
     display: flex;
     justify-content: center;
-    border: 1px solid green;
 }
 
 .photogrid2 {
-    display: flex;    
+    display: flex;
+    justify-content: space-between;
 }
 
 .photogriditem1 
@@ -123,15 +123,20 @@ html {
 .photogriddesc {
     font-size: 18px;
     color: #e5e7eb;
+    text-align: center;
 }
 
 .body3 {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    border: 1px solid red;
+    flex-direction: column;
 }
 
 .quote {
     display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
 }
