@@ -13,27 +13,49 @@ html {
 
 .banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
+    padding: 30px;
 }
 
 .logo {
     display: flex;
-    width: 300px;
+    flex-basis: 100%;
+}
+
+.logocontainer {
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
-    justify-content: center;
-    margin-left: 90px;
+    justify-content: flex-start; 
+    margin-left: 85px;
 }
 
 .links {
     display: flex;
-    width: 600px;
-    padding-right: 100px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    /* max-width: 500px; */
+    /* margin-right: 200px; */
+    flex-basis: 100%;
     color: #e5e7eb;
-    font-size: 18px;  
+    font-size: 18px;
+}
+
+.linkone,
+.linktwo,
+.linkthree {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+
+.linkonecontainer,
+.linktwocontainer,
+.linkthreecontainer {
+    display: flex;
+    min-width: max-content;
 }
 
 .body1 {
@@ -47,11 +69,13 @@ html {
 .photogrid {
     display: flex;
     flex-direction: column;
+    flex-basis: 100%;
 }
 
 .title1 {
     display: flex;
-    width: 500px;
+    /* width: 500px; */
+    flex-basis: 100%;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -60,7 +84,8 @@ html {
 
 .description1 {
     display: flex;
-    width: 400px;
+    /* width: 400px; */
+    flex-basis: 100%;
     font-size: 18px;
     color:#e5e7eb;
     padding: 5px;
@@ -69,19 +94,21 @@ html {
 .image1container {
     display: flex;
     justify-content: center;
+    flex-basis: 100%;
 }
 
 .image1 {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    /* flex-direction: column; */
+    /* width: 50%; */
+    max-width: 400px;
+    height: auto;
 }
 
 .button1container {
     display: flex;
     justify-content: flex-start;
-    padding: 5px;
-}
+   }
 
 .button1 {
     background-color: #3882F6;
