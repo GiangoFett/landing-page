@@ -128,26 +128,39 @@ html {
 
 .photogrid2container {
     display: flex;
-    justify-content: center;
 }
 
 .photogrid2 {
     display: flex;
-    justify-content: space-between;
+    flex-basis: 100%;
+    justify-content: space-around;
+    padding: 100px 100px;
 }
 
-.photogriditem1 
-.photogriditem2 
-.photogriditem3
-.photogriditem4 {
+.item1 
+.item2 
+.item3
+.item4 {
     height: 300px;
     width: 300px;
 }
 
-.photogriddesc {
-    font-size: 18px;
+.item1desc,
+.item2desc,
+.item3desc,
+.item4desc {
     color: #e5e7eb;
-    text-align: center;
+    font-size: 18px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    height: auto;
 }
 
 .body3 {
