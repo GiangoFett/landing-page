@@ -128,12 +128,13 @@ html {
 
 .photogrid2container {
     display: flex;
+    justify-content: center;
 }
 
 .photogrid2 {
     display: flex;
-    flex-basis: 100%;
-    justify-content: space-around;
+    width: 700px;
+    justify-content: space-between;
     padding: 100px 100px;
 }
 
